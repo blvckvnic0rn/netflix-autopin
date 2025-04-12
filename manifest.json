@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix PIN Auto-Filler",
+  "version": "1.0",
+  "description": "Because writing a PIN in 2025 is hard. 🤡",
+  "permissions": ["scripting", "tabs","storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.netflix.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  }
+}
