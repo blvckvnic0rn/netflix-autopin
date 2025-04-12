@@ -36,13 +36,7 @@ Then:
 
     3. The extracted folder should contain these files:
 
-```bash
-manifest.json
-content.js
-popup.html
-popup.js
-popup.css
-```
+![files](https://github.com/user-attachments/assets/3448ec80-6591-481d-91c6-691394bde65a)
 
 
  
